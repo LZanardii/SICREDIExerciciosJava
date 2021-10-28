@@ -6,7 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SICREDIExerciciosJava" />
+        <module name="Coleções" />
+        <module name="ColeçõesMap" />
       </profile>
     </annotationProcessing>
   </component>

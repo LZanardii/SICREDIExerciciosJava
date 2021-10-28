@@ -32,3 +32,4 @@ public class AgendaTelefonicaTeste {
         System.out.println("Você tem " + agenda.tamanho() + " pessoas na lista");
     }
 }
+

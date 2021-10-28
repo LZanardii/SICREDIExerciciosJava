@@ -16,7 +16,7 @@ public class AgendaTelefonica {
             return agenda.get(nome);
         }else
             System.out.print("OPS! Não conseguimos encontrar o número de ");
-            return nome;
+        return nome;
     }
 
     //método que remove a chave e o valor a ela atrelado do map
@@ -35,9 +35,4 @@ public class AgendaTelefonica {
         return agenda.size();
     }
 }
-
-
-
-
-
 
