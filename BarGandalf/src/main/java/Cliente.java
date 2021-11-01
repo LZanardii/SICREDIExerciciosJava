@@ -1,3 +1,5 @@
+//classe responsável por administrar objeto cliente
+
 import java.util.*;
 
 public class Cliente {
