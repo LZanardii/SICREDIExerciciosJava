@@ -1,3 +1,5 @@
+//classe responsavel por administrar cadastro de clientes
+
 import java.util.*;
 public class Bar {
 
