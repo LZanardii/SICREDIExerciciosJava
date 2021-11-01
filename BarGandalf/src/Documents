@@ -1,0 +1,16 @@
+##
+## Bar do Gandalf é um projeto de gerenciamento de clientes do bar...
+##
+## Ele possibilita:
+##
+##  - Adicionar e remover clientes
+##  - Consultar clientes presentes
+##  - Relatórios em geral
+##
+## Possui verificações de:
+##  - CPF (veracidade + repetição de cpf)
+##  - char (utilizado para declarar gênero)
+##
+## Interações via terminal
+##
+## Finalizado dia: 01/11/2021
