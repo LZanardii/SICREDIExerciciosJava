@@ -46,7 +46,7 @@ public class Bar {
     //Verificando veracidade CPF
     public boolean veracidadeCPF(String cpf) {
         int soma = 0;
-        for (int i = 0; i < 11; i++) {
+        for (int i = 0; i < cpf.length(); i++) {
             int integer = cpf.charAt(i);
             soma += Integer.parseInt(String.valueOf(cpf.charAt(i)));
         }
@@ -76,12 +76,13 @@ public class Bar {
             System.out.print("Informe o Gênero: ");
             char genero = sc.next().charAt(0);
 
+            //validando veracidade do CPF
             if (veracidadeCPF(cpf) == true) {
 
                 //instanciando cliente
                 Cliente c = new Cliente(cpf, idade, nome, genero);
 
-                //inserindo sem verificação caso seja o primeiro cliente
+                //inserindo sno array sem veririficação
                 lstClientes.add(c);
                 contador++;
                 System.out.println("Primeiro cliente do dia adicionado");
@@ -91,8 +92,7 @@ public class Bar {
 
             }
 
-
-            //Instanciando novos clientes após o primerio instanciado
+        //Instanciando novos clientes após o primerio instanciado
         } else if (lstClientes.size() != 0 & verificador == false) {
 
             //solicitando informações dos demais clientes
@@ -117,7 +117,7 @@ public class Bar {
 
                     if (lstClientes.get(i).getCpf().equals(cpf)) {
                         System.out.println("CPF ja existente no sistema...");
-                        System.out.print("Digite 1 para volar ao MENU");
+                        System.out.print("Digite 1 para volar ao MENU ");
                         sc.next();
                         break;
 
@@ -127,6 +127,7 @@ public class Bar {
                         if (contador < nroClientesTotais) {
                             lstClientes.add(c);
                             contador++;
+                            System.out.println("Cliente adicionado");
                             break;
                         } else if (contador == nroClientesTotais) {
                             System.out.println("O bar está lotado");
@@ -153,6 +154,8 @@ public class Bar {
                 break;
             } else if (i == lstClientes.size() - 1) {
                 System.out.println("CPF não encontrado");
+                System.out.println("Digite 1 para volar ao MENU");
+                sc.next();
                 break;
             }
         }
@@ -167,10 +170,15 @@ public class Bar {
             if (lstClientes.get(i).getNome().equals(nome)) {
                 System.out.println("NOME ENCONTRADO" + "\n" +
                         "CPF: " + lstClientes.get(i).getCpf());
+                System.out.println("Digite 1 para volar ao MENU");
+                sc.next();
                 break;
-            } else
+            } else if (i == lstClientes.size() - 1){
                 System.out.println("NOME não encontrado");
-            break;
+                System.out.println("Digite 1 para volar ao MENU");
+                sc.next();
+                break;
+            }
         }
     }
 
@@ -191,9 +199,7 @@ public class Bar {
             System.out.println("O bar está vazio");
         }else {
             for (int i = 0; i < lstClientes.size(); i++) {
-                if (lstClientes.get(i).getGenero() != 'M' & lstClientes.get(i).getGenero() != 'F') {
-                    continue;
-                } else if (lstClientes.get(i).getGenero() == 'M') {
+                if (lstClientes.get(i).getGenero() == 'M') {
                     men++;
                 } else if (lstClientes.get(i).getGenero() == 'F')
                     girl++;
@@ -228,8 +234,12 @@ public class Bar {
                     System.out.println("Revomendo " + lstClientes.get(i).getNome() + "...");
                     lstClientes.remove(i);
                     break;
-                } else
+                }else if (i == lstClientes.size() - 1){
                     System.out.println("CPF nao encontrado");
+                    System.out.println("Digite 1 para volar ao MENU");
+                    sc.next();
+                    break;
+                }
             }
         }
     }

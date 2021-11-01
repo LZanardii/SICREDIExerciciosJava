@@ -20,13 +20,13 @@ public class Cliente {
 
         //verifica se o input de genero está correto
         if (Character.toUpperCase(genero) == 'M' || Character.toUpperCase(genero) == 'F') {
-            this.genero = genero;
+            this.genero = Character.toUpperCase(genero);
         } else {
             while (Character.toUpperCase(genero) != 'M' || Character.toUpperCase(genero) != 'F') {
                 System.out.println("Você inseriu uma letra inválida, insira somente 'M' ou 'F'. ");
                 genero = sc.next().charAt(0);
                 if (Character.toUpperCase(genero) == 'M' || Character.toUpperCase(genero) == 'F') {
-                    this.genero = genero;
+                    this.genero = Character.toUpperCase(genero);
                     break;
                 }
             }
