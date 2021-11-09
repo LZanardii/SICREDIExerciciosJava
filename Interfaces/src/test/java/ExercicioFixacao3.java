@@ -12,11 +12,17 @@ public class ExercicioFixacao3 {
         listInt.add(10);
         listInt.add(20);
         listInt.add(30);
-        listInt.add(10);
+        listInt.add(-10);
 
         rotina(listInt, (int x) -> "R$ " + String.valueOf(x));
 
-        rotina(listInt, (int x) ->   );
-    }
+        rotina(listInt, (int x) -> (x >= 0) ? x + "<C>" : x + "<D>" );
 
+        rotina(listInt, (int x) -> {
+            if(x >= 0) {
+                return("<C>");
+            }else
+                return("<D>");
+        });
+    }
 }
