@@ -1,0 +1,104 @@
+
+U
+java:S6213
+":Rename this variable to not match a restricted identifier.(àÿûşÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ŸÔüİ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ßÙ±—øÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ŸÔüİ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ıÂÁùÿÿÿÿ
+M
+java:S6126"2Replace this String concatenation with Text block.(ıÂÁùÿÿÿÿ
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(ŸÔüİ
+V
+java:S18544";Remove this useless assignment to local variable "integer".(²ïâÎûÿÿÿÿ
+G
+java:S14814",Remove this unused "integer" local variable.(²ïâÎûÿÿÿÿ
+/
+java:S21787"Correct this "|" to "||".(ŞÜĞ³
+/
+java:S21787"Correct this "|" to "||".(ŞÜĞ³
+/
+java:S21787"Correct this "|" to "||".(ŞÜĞ³
+/
+java:S21787"Correct this "|" to "||".(ŞÜĞ³
+/
+java:S21787"Correct this "|" to "||".(ŞÜĞ³
+/
+java:S21787"Correct this "|" to "||".(ŞÜĞ³
+N	java:S106:"9Replace this use of System.out or System.err by a logger.(¼½ê¼
+m
+java:S3776B"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(‘ÿåøÿÿÿÿ
+Z
+java:S1854]"?Remove this useless assignment to local variable "verificador".(¡ÍÒÿÿÿÿÿÿ
+N	java:S106H"9Replace this use of System.out or System.err by a logger.(¿ˆø¯
+S	java:S106J"9Replace this use of System.out or System.err by a logger.(ñâƒæûÿÿÿÿ
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(³Ï°îıÿÿÿÿ
+S	java:S106N"9Replace this use of System.out or System.err by a logger.(Íèæõøÿÿÿÿ
+=
+java:S1125R"'Remove the unnecessary boolean literal.(¤çğ
+S	java:S106Z"9Replace this use of System.out or System.err by a logger.(»‘½½ûÿÿÿÿ
+/
+java:S2178b"Correct this "&" to "&&".(¼®³Å
+=
+java:S1125b"'Remove the unnecessary boolean literal.(¼®³Å
+N	java:S106e"9Replace this use of System.out or System.err by a logger.(¿ˆø¯
+S	java:S106g"9Replace this use of System.out or System.err by a logger.(ñâƒæûÿÿÿÿ
+S	java:S106i"9Replace this use of System.out or System.err by a logger.(³Ï°îıÿÿÿÿ
+S	java:S106k"9Replace this use of System.out or System.err by a logger.(Íèæõøÿÿÿÿ
+=
+java:S1125n"'Remove the unnecessary boolean literal.(¤çğ
+N	java:S106y"9Replace this use of System.out or System.err by a logger.(¨ğ‘ç
+S	java:S106z"9Replace this use of System.out or System.err by a logger.(¶Œıÿÿÿÿ
+O	java:S106„"9Replace this use of System.out or System.err by a logger.(Æ¶¼
+O	java:S106‡"9Replace this use of System.out or System.err by a logger.(õ¼
+O	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(¯Åßä
+T	java:S106”"9Replace this use of System.out or System.err by a logger.(Øààúÿÿÿÿ
+O	java:S106˜"9Replace this use of System.out or System.err by a logger.(õÙ©¹
+O	java:S106š"9Replace this use of System.out or System.err by a logger.(¯Åßä
+T	java:S106"9Replace this use of System.out or System.err by a logger.(İñ€Øûÿÿÿÿ
+O	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(¯Åßä
+T	java:S106¨"9Replace this use of System.out or System.err by a logger.(èÇ›üÿÿÿÿ
+T	java:S106­"9Replace this use of System.out or System.err by a logger.(×©ƒËûÿÿÿÿ
+O	java:S106¯"9Replace this use of System.out or System.err by a logger.(¯Åßä
+N	java:S106³"9Replace this use of System.out or System.err by a logger.(ü¸³
+O	java:S106´"9Replace this use of System.out or System.err by a logger.(¯Åßä
+O	java:S106¾"9Replace this use of System.out or System.err by a logger.(‚™ÕÌ
+O	java:S106À"9Replace this use of System.out or System.err by a logger.(’ëÇå
+O	java:S106É"9Replace this use of System.out or System.err by a logger.(‚™ÕÌ
+T	java:S106Ñ"9Replace this use of System.out or System.err by a logger.(Î»ßÅıÿÿÿÿ
+T	java:S106Ò"9Replace this use of System.out or System.err by a logger.(ëÒ¨±ıÿÿÿÿ
+O	java:S106Ù"9Replace this use of System.out or System.err by a logger.(‚™ÕÌ
+O	java:S106Ü"9Replace this use of System.out or System.err by a logger.(¸İöÜ
+O	java:S106æ"9Replace this use of System.out or System.err by a logger.(‚™ÕÌ
+O	java:S106è"9Replace this use of System.out or System.err by a logger.(ÌËº—
+T	java:S106ì"9Replace this use of System.out or System.err by a logger.(ÎÚáŒøÿÿÿÿ
+T	java:S106ğ"9Replace this use of System.out or System.err by a logger.(÷œ™Éıÿÿÿÿ
+O	java:S106ñ"9Replace this use of System.out or System.err by a logger.(¯Åßä
+T	java:S106ş"9Replace this use of System.out or System.err by a logger.(šÓ™”úÿÿÿÿ
+O	java:S106„"9Replace this use of System.out or System.err by a logger.(Ä¨øÑ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ş›«àşÿÿÿÿ
+s
+java:S1192ˆ"\Define a constant instead of duplicating this literal "Digite 1 para volar ao MENU" 6 times.(¯Åßä
+i
+java:S1192¾"RDefine a constant instead of duplicating this literal "O bar estÃ¡ vazio" 4 times.(‚™ÕÌ
+n	java:S135t"YReduce the total number of break and continue statements in this loop to use at most one.(Ï’Í
+o	java:S135–"YReduce the total number of break and continue statements in this loop to use at most one.(Ï’Í
+o	java:S135«"YReduce the total number of break and continue statements in this loop to use at most one.(Ï’Í
+o	java:S135ê"YReduce the total number of break and continue statements in this loop to use at most one.(Ï’Í
+T
+java:S1155G">Use isEmpty() to check whether the collection is empty or not.(€«Ùÿ
+T
+java:S1155b">Use isEmpty() to check whether the collection is empty or not.(¼®³Å
+U
+java:S1155½">Use isEmpty() to check whether the collection is empty or not.(€«Ùÿ
+U
+java:S1155È">Use isEmpty() to check whether the collection is empty or not.(€«Ùÿ
+U
+java:S1155Ø">Use isEmpty() to check whether the collection is empty or not.(€«Ùÿ
+U
+java:S1155å">Use isEmpty() to check whether the collection is empty or not.(€«Ùÿ
+0
+java:S1220""Move this file to a named package.
